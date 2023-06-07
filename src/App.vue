@@ -8,7 +8,7 @@
           type="number"
           id="input"
           v-model="lembur"
-          class="border border-gray-300 px-3 py-2 rounded"
+          class="w-full h-8 border-gray-300 mt-1 px-3 py-2 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
           autofocus
         >
       </div>
