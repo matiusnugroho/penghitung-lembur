@@ -9,6 +9,7 @@
           id="input"
           v-model="lembur"
           class="border border-gray-300 px-3 py-2 rounded"
+          autofocus
         >
       </div>
       <div v-if="lembur" class="text-lg font-bold mb-4">
@@ -17,6 +18,7 @@
     </div>
   </div>
 </template>
+
 <script setup>
 import { computed, ref } from 'vue';
 
